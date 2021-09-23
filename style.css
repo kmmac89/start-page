@@ -1,0 +1,102 @@
+
+body {
+	border: none;
+	background-color: transparent;
+}
+
+html {
+	font-family: "VictorMono";
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 3px;
+}
+
+.flex-container {
+	background: #eee8d5;
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+	justify-content: left;
+	padding: 0px;
+	margin: 6px;
+	border-radius: 10px;
+
+}
+
+.flex-item {
+	background-color: rgba(238, 232, 213, .1);
+	padding: 3px;
+	max-width: auto;
+	max-height: auto;
+	margin: 3px;
+	line-height: auto;
+	color: #d33682;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+.link-tree {
+	background: ;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	border: 3px;
+	border-radius: 10px;
+
+}
+
+.content {
+	display: grid;
+	max-width: auto;
+	margin-left: 3px;
+	margin-right: 3px;
+	
+}
+
+.image {
+	background-image: url("images/solar-1.gif");
+	background-size: cover;
+	background-position-x: center;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 320px;
+	height: 320px;
+	border: 3px;
+	border-radius: 10px;
+
+}
+
+.wrapper {
+	background-color: rgba(238, 232, 213, .9);
+	background-image: url("images/solar-bg-1.jpeg");
+	background-blend-mode: screen;
+	background-position-x: center;
+	border-radius: 10px;
+	display: flex;
+	max-width: 1024px;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+
+}
+a:link, a:visited {
+	background-color: #fdf6e3;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10px;
+  }
+
+  a:hover, a:active {
+	background-color: #657b83;
+	opacity: 80%;
+	border-radius: 10px;
+	color: #eee8d5;
+  }
