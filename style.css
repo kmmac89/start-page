@@ -5,9 +5,7 @@ body {
 	font-family: "Victor Mono", monospace;
 }
 
-html {
-	font-family: "VictorMono";
-}
+
 
 h1, h2, h3 {
 	margin: 0px;
@@ -15,8 +13,31 @@ h1, h2, h3 {
 	font-style: italic;
 }
 
+.menu-item {
+	padding: 3px;
+	margin: 10px;
+	max-width: auto;
+	max-height: auto;
+	line-height: auto;
+	color: #657b83;
+	font-style: italic;
+	font-size: 2.3em;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+.menu-container {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
 .flex-container {
-	background: rgba(238, 232, 213, .8);
+	background-color: rgba(238, 232, 213, .8);
 	display: flex;
 	flex-flow: row wrap;
 	list-style: none;
@@ -42,7 +63,7 @@ h1, h2, h3 {
 }
 
 .link-tree {
-	background: ;
+	background-color: rgba(238, 232, 213);
 	margin-top: 10px;
 	margin-bottom: 0px;
 	border: 3px;
@@ -80,12 +101,12 @@ h1, h2, h3 {
 	border-radius: 10px;
 	display: flex;
 	max-width: 920px;
-	margin-top: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
 
 }
+
 a:link, a:visited {
 	background-color: #fdf6e3;
 	padding: 10px 20px;
@@ -93,6 +114,7 @@ a:link, a:visited {
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 10px;
+
   }
 
   a:hover, a:active {
@@ -100,4 +122,5 @@ a:link, a:visited {
 	opacity: 80%;
 	border-radius: 10px;
 	color: #eee8d5;
+
   }
