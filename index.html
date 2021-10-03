@@ -10,11 +10,11 @@
 
 <nav>
 	<ul class="menu-container">
-		<li class="menu-item"><a href="">🧘🏻 home</a></li>
-		<li class="menu-item"><a href="">✔️ do</a></li>
-		<li class="menu-item"><a href="">📗 learn</a></li>
-		<li class="menu-item"><a href="">▶️ play</a></li>
-		<li class="menu-item"><a href="">📑 work</a></li>
+		<li class="menu-item"><button onclick="goHome()">🧘🏻 home</button></li>
+		<li class="menu-item"><button onclick="goDo()">✔️ do</button></li>
+		<li class="menu-item"><button onclick="goLearn()">📗 learn</button></li>
+		<li class="menu-item"><button onclick="goPlay()">▶️ play</button></li>
+		<li class="menu-item"><button onclick="goWork()">📑 work</button></li>
 	</ul>
 </nav>
 
@@ -29,8 +29,9 @@
 <div class="content">
 
 
+
 <!-- Home -->
-<div class="menu-home">
+<div id="menu-home" style="display: none">
 
 <!-- Self hosted services -->
 <div class="link-tree">
@@ -59,7 +60,7 @@
 
 <!-- Do -->
 
-<div class="menu-do">
+<div id="menu-do" style="display: none">
 
 <!-- Stocks and crypto -->
 <div class="link-tree">
@@ -98,7 +99,7 @@
 
 
 <!-- Learning -->
-<div class="menu-learn">
+<div id="menu-learn" style="display: none">
 
 <!-- Development -->
 <div class="link-tree">
@@ -130,7 +131,7 @@
 
 
 <!-- Play -->
-<div class="menu-play">
+<div id="menu-play" style="display: none">
 
 <!-- Astrology -->
 <div class="link-tree">
@@ -171,7 +172,7 @@
 
 
 <!-- Work -->
-<div class="menu-work">
+<div id="menu-work" style="display: none">
 
 <!-- Looking for work -->
 <div class="link-tree">
@@ -224,6 +225,8 @@
 
 </div>
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>

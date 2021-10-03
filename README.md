@@ -1,7 +1,9 @@
 # Start page (Sept 2021)
 
-Functional but bare-bones "start page" to fit the rest of my current theme.
+Functional but bare-bones "start page" to fit the rest of my current Solarized theme.
 
 ## To Do
 
-[ ] Add onclick script logic to nav bar links
+[x] Add onclick script logic to nav bar links
+[ ] Revise onclick logic to hide all other divs aside from the main element
+[ ] Add styling to button class
