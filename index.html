@@ -2,231 +2,87 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title></title>
+<title>hello, </title>
 <link rel="stylesheet" href="solarized-light.min.css"><link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css">
 </head>
 
-
-<nav>
-	<ul class="menu-container">
-		<li class="menu-item"><button onclick="goHome()">🧘🏻 home</button></li>
-		<li class="menu-item"><button onclick="goDo()">✔️ do</button></li>
-		<li class="menu-item"><button onclick="goLearn()">📗 learn</button></li>
-		<li class="menu-item"><button onclick="goPlay()">▶️ play</button></li>
-		<li class="menu-item"><button onclick="goWork()">📑 work</button></li>
-	</ul>
-</nav>
-
-<body>
-
-<div class="wrapper">
-
 <!-- Animated gif -->
 <div class="content">
-<div class="image"></div></div>
+	<div class="image"></div></div>
+	
 
-<div class="content">
+		<ul class="menu-container">
+			<li class="menu-item">🧘🏻 home</button></li>
+			<li class="menu-item">✔️ do</button></li>
+			<li class="menu-item">📗 learn</button></li>
+			<li class="menu-item">▶️ play</button></li>
+			<li class="menu-item">📑 work</button></li>
+		</ul>
 
+<div class="wrapper">
+	<div class="link-tree">
+		<ul class="flex-container">
+			<li class="flex-item" style="text-align: right;"><a href="http://10.1.10.5:32400/" style="text-align: right;">Plex</a></li>
+			<li class="flex-item" style="text-align: right;"><a href="http://10.1.10.6/admin" style="text-align: right;">Pi-hole</a></li>
+			<li class="flex-item" style="text-align: right;"><a href="https://10.1.110.5:" style="text-align: right;">Deluge</a></li>
+			<li class="flex-item" style="text-align: right;"><a href="https://drive.google.com/" style="text-align: right;">Google Drive</a></li>
+			<li class="flex-item" style="text-align: right;"><a href="https://trello.com" style="text-align: right;">Trello</a></li>
+		</ul>
+	</div>
 
+	<div class="link-tree">
+		<ul class="flex-container">
+			<li class="flex-item"><a href="https://www.livenewsnow.com/category/american">LiveNewsNow</a></li>
+			<li class="flex-item"><a href="https://wamu.org/">WAMU</a></li>
+			<li class="flex-item"><a href="https://www.youtube.com/">YouTube</a></li>
+			<li class="flex-item"><a href="https://www.wtulneworleans.com/">WTUL</a></li>
+			<li class="flex-item"><a href="https://www.reddit.com/user/9minutes/m/stocks/">m/stocks</a></li>
+			<li class="flex-item"><a href="https://www.reddit.com/user/9minutes/m/crypto/">m/crypto</a></li>
+			<li class="flex-item"><a href="https://boards.4channel.org/biz/">/biz/</a></li>
+			<li class="flex-item"><a href="https://finance.yahoo.com/">Y! Finance</a></li>
+			<li class="flex-item"><a href="https://www.coingecko.com/en">Coingecko</a></li>
+			<li class="flex-item"><a href="https://www.binance.us/en/home">Binance.US</a></li>
+			<li class="flex-item"><a href="https://stakecube.net/">Stakecube</a></li>
+			<li class="flex-item"><a href="https://www.publish0x.com/">Publish0x</a></li>
+			<li class="flex-item"><a href="https://www.etrade.wallst.com/">E*Trade</a></li>
+			<li class="flex-item"><a href="https://www.tradervue.com/sub">TraderVue</a></li>
+			<li class="flex-item"><a href="https://finviz.com/">Finviz</a></li>
+		</ul>
+	</div>
 
-<!-- Home -->
-<div id="menu-home" style="display: none">
+	<div class="link-tree">
+		<ul class="flex-container">
+			<li class="flex-item"><a href="https://www.reddit.com/user/9minutes/m/lp/">m/lp</a></li>
+			<li class="flex-item"><a href="https://www.theodinproject.com/login">The Odin Project</a></li>
+			<li class="flex-item"><a href="https://github.com/explore">Github</a></li>
+			<li class="flex-item"><a href="https://codepen.io/trending">CodePen</a></li>
+			<li class="flex-item"><a href="https://stackexchange.com/">Stack Exchange</a></li>
+		</ul>
+	</div>
 
-<!-- Self hosted services -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>services</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="http://10.1.10.5:32400/">Plex</a></li>
-		<li class="flex-item"><a href="http://10.1.10.6/admin">Pi-hole</a></li>
-		<li class="flex-item"><a href="">Deluge</a></li>
-	</ul>
-</div>
+	<div class="link-tree">
+		<ul class="flex-container">
+			<li class="flex-item"><a href="https://www.reddit.com/user/9minutes/m/inspiration/">m/inspiration</a></li>
+			<li class="flex-item"><a href="https://smile.amazon.com">Amazon</a></li>		
+			<li class="flex-item"><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>
+			<li class="flex-item"><a href="https://boards.4channel.org/wg/">/wg/</a></li>
+			<li class="flex-item"><a href="">r/startpages</a></li>
+			<li class="flex-item"><a href="https://astrologyking.com">AstrologyKing</a></li>
+			<li class="flex-item"><a href="https://www.astrologycafe.com/">Astrology Cafe</a></li>
+			<li class="flex-item"><a href="https://cafeastrology.com">Cafe Astrology</a></li>
+			<li class="flex-item"><a href="https://go-astronomy.com">Go Astronomy</a></li>
+			<li class="flex-item"><a href="https://in-the-sky.org/index.php">In The Sky</a></li>
+		</ul>
+	</div>
 
-<!-- Tools I'm currently using -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>tools</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="https://drive.google.com/">Google Drive</a></li>
-		<li class="flex-item"><a href="https://trello.com">Trello</a></li>
-	</ul>
-</div>
-</div>
+	<div class="link-tree">
+		<ul class="flex-container">
+			<li class="flex-item" style="text-align: left;"><a href="https://www.linkedin.com/in/kris-m-storck-680953125/" style="text-align: left;">Linkedin</a></li>
+			<li class="flex-item" style="text-align: left;"><a href="https://www.indeed.com/" style="text-align: left;">Indeed</a></li>
+		</ul>
+	</div>
 
-
-<!-- Do -->
-
-<div id="menu-do" style="display: none">
-
-<!-- Stocks and crypto -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>fintech</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="https://www.reddit.com/user/9minutes/m/stocks/">m/stocks</a></li>
-		<li class="flex-item"><a href="https://www.reddit.com/user/9minutes/m/crypto/">m/crypto</a></li>
-		<li class="flex-item"><a href="https://boards.4channel.org/biz/">/biz/</a></li>
-		<li class="flex-item"><a href="https://finance.yahoo.com/">Y! Finance</a></li>
-		<li class="flex-item"><a href="https://www.coingecko.com/en">Coingecko</a></li>
-		<li class="flex-item"><a href="https://www.binance.us/en/home">Binance.US</a></li>
-		<li class="flex-item"><a href="https://stakecube.net/">Stakecube</a></li>
-		<li class="flex-item"><a href="https://www.publish0x.com/">Publish0x</a></li>
-		<li class="flex-item"><a href="https://www.etrade.wallst.com/">E*Trade</a></li>
-		<li class="flex-item"><a href="https://www.tradervue.com/sub">TraderVue</a></li>
-		<li class="flex-item"><a href="https://finviz.com/">Finviz</a></li>
-	</ul>
-</div>
-
-<!-- Live media -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>news n views</h3></li>
-	</ul>
-	<ul class="flex-container">		
-		<li class="flex-item"><a href="https://www.livenewsnow.com/category/american">LiveNewsNow</a></li>
-		<li class="flex-item"><a href="https://wamu.org/">WAMU</a></li>
-		<li class="flex-item"><a href="https://www.youtube.com/">YouTube</a></li>
-		<li class="flex-item"><a href="https://www.wtulneworleans.com/">WTUL</a></li>
-	</ul>
-</div>
-</div>
-
-
-
-<!-- Learning -->
-<div id="menu-learn" style="display: none">
-
-<!-- Development -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>dev</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="https://www.reddit.com/user/9minutes/m/lp/">m/lp</a></li>
-		<li class="flex-item"><a href="https://www.theodinproject.com/login">The Odin Project</a></li>
-		<li class="flex-item"><a href="https://github.com/explore">Github</a></li>
-		<li class="flex-item"><a href="https://codepen.io/trending">CodePen</a></li>
-		<li class="flex-item"><a href="https://stackexchange.com/">Stack Exchange</a></li>
-	</ul>
-</div>
-
-<!-- Business -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>business</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="">Link 1</a></li>
-		<li class="flex-item"><a href="">Link 2</a></li>
-		<li class="flex-item"><a href="">Link 3</a></li>
-	</ul>
-</div>
-</div>
-
-
-
-<!-- Play -->
-<div id="menu-play" style="display: none">
-
-<!-- Astrology -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>astro</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="https://astrologyking.com">AstrologyKing</a></li>
-		<li class="flex-item"><a href="https://www.astrologycafe.com/">Astrology Cafe</a></li>
-		<li class="flex-item"><a href="https://cafeastrology.com">Cafe Astrology</a></li>
-		<li class="flex-item"><a href="https://go-astronomy.com">Go Astronomy</a></li>
-		<li class="flex-item"><a href="https://in-the-sky.org/index.php">In The Sky</a></li>
-	</ul>
-</div>
-
-<!-- Inspiration -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>inspiration</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="https://www.reddit.com/user/9minutes/m/inspiration/">m/inspiration</a></li>
-	</ul>
-</div>
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>just 4 fun</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="https://smile.amazon.com">Amazon</a></li>		
-		<li class="flex-item"><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>
-		<li class="flex-item"><a href="https://boards.4channel.org/wg/">/wg/</a></li>
-		<li class="flex-item"><a href="">r/startpages</a></li>
-	</ul>
-</div>
-</div>
-
-
-
-<!-- Work -->
-<div id="menu-work" style="display: none">
-
-<!-- Looking for work -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>job search</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="">Link 1</a></li>
-		<li class="flex-item"><a href="">Link 2</a></li>
-		<li class="flex-item"><a href="">Link 3</a></li>
-	</ul>
-</div>
-
-<!-- Networking and social media -->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>networking</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="">Link 1</a></li>
-		<li class="flex-item"><a href="">Link 2</a></li>
-		<li class="flex-item"><a href="">Link 3</a></li>
-	</ul>
-</div>
-
-<!-- Career resources-->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>career</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="">Link 1</a></li>
-		<li class="flex-item"><a href="">Link 2</a></li>
-		<li class="flex-item"><a href="">Link 3</a></li>
-	</ul>
-</div>
-
-<!-- Gig work-->
-<div class="link-tree">
-	<ul class="flex-container">
-		<li class="flex-item"><h3>freelance</h3></li>
-	</ul>
-	<ul class="flex-container">
-		<li class="flex-item"><a href="">Link 1</a></li>
-		<li class="flex-item"><a href="">Link 2</a></li>
-		<li class="flex-item"><a href="">Link 3</a></li>
-	</ul>
-</div>
-</div>
-
-</div>
-</div>
-
-<script src="script.js"></script>
 
 </body>
 </html>
